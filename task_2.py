@@ -5,9 +5,8 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv(r"C:\Users\ANJALI DUBEY\Downloads\Students Social Media Addiction.csv")
+df = pd.read_csv(r"Students Social Media Addiction.csv") #copy the path of the csv file 
 print("Missing values:\n", df.isnull().sum())
-# 5 Specific EDA Analyses with visualizations
 
 # 1. Addiction Score vs. Avg Daily Usage
 plt.figure()
